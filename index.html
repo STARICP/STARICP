@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html LANG="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta itemprop="name" content="星ICP备案">
     <meta itemprop="image" content="https://icp.bili.bio/images/ico64.png">
     <meta name="description" itemprop="description" content="星友网站联盟！快来申请星ICP号吧！">
     <title>星ICP备案</title>
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css"><!--页面样式表-->
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script src="./JS/stop.js"></script>
+    <script src="./JS/stop.js"></script><!--搜索停用提示-->
+    <SCRIPT SRC="./JS/search.js"></SCRIPT><!--搜索功能核心-->
     <div class="page">
         <div class="bg"></div>
         <div class="container ">
@@ -18,15 +19,15 @@
             <div class="">
             	
             	
-                                    <!-- <form class="search-form" name="keyform" method="get" action="https://icp.bili.bio">
+                                    <form class="search-form">
                     	      <pre>      	</pre>
-                        <input name="keyword" placeholder="请输入星号 OR 域名">
-                        <button type="submit" class="search-submit">查询</button>
-                    </form> -->
+                        <input name="keyword" placeholder="请输入星号 OR 域名" id="keyword">
+                        <button type="submit" class="search-submit" onclick="s()">查询</button>
+                    </form>
                     
                    
                    
-                 <div class="text" style=" text-align:center; "><font style="font-size:16px"><a style=" text-decoration:none; " href="https://icp.bili.bio/info.html" target="_blank"><span style="color:#F08080">关于星ICP备&nbsp;</span></a></font>&nbsp;&nbsp; <a style=" text-decoration:none; " href="https://icp.bili.bio/" target="_blank"><img style="width:32px;height:32px;margin-bottom:-8px" src="./images/ico64.png"></a>&nbsp;  <a style=" text-decoration:none; " href="https://icp.bili.bio/join.html" target="_blank"><span style="color:#F08080">星ICP备申请</span>
+                 <div class="text" style=" text-align:center; "><font style="font-size:16px"><noscript>错误：您禁止了JavaScript，不能使用搜索功能。<p></p></noscript><a style=" text-decoration:none; " href="https://icp.bili.bio/info.html" target="_blank"><span style="color:#F08080">关于星ICP备&nbsp;</span></a></font>&nbsp;&nbsp; <a style=" text-decoration:none; " href="https://icp.bili.bio/" target="_blank"><img style="width:32px;height:32px;margin-bottom:-8px" src="./images/ico64.png"></a>&nbsp;  <a style=" text-decoration:none; " href="https://icp.bili.bio/join.html" target="_blank"><span style="color:#F08080">星ICP备申请</span>
                  	
                  </a></div><a style=" text-decoration:none; " href="https://icp.bili.bio/join.html" target="_blank">
             </a></div><a style=" text-decoration:none; " href="https://icp.bili.bio/join.html" target="_blank">
